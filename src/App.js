@@ -73,13 +73,13 @@ const Quote = ({ quote, fetchQuote }) => {
 };
 
 const TweetBtn = ({ tweet }) => (
-  <a target="_blank" className="btn btn-info me-4" id="tweet-quote" href={tweet}>
+  <a target="_blank" className="btn btn-info me-4 btn-lg" id="tweet-quote" href={tweet}>
     Tweet
   </a>
 );
 
 const NewQuote = (props) => (
-  <button id="new-quote" className="btn btn-primary" onClick={props.fetchQuote}>
+  <button id="new-quote" className="btn btn-primary btn-lg" onClick={props.fetchQuote}>
     New quote
   </button>
 );
