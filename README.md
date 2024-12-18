@@ -27,7 +27,7 @@ This project was developed as part of freeCodeCamp's **Front End Development Lib
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/abelgideon/react-quote-generator.git
+   git clone https://github.com/abelgideon/React-Quote-Generator.git
    ```
 
 2. Navigate to the project directory:  
