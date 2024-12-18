@@ -48,7 +48,7 @@ This project was developed as part of freeCodeCamp's **Front End Development Lib
    - Click the "Tweet" button to share the displayed quote on Twitter.
 
 2. **GitHub Pages Deployment**:  
-   Alternatively, you can access the live site [here](https://abelgideon.github.io/react-quote-generator/).
+   Alternatively, you can access the live site [here](https://abelgideon.github.io/React-Quote-Generator/).
 
 
 ## Project Highlights
