@@ -59,21 +59,22 @@ const Quote = ({ quote, fetchQuote }) => {
   return (
     <>
       <p id="text" className="h2 text-light">
-        <span className="quotations">"</span>
+        <span className="quotations">❝ </span>
         {quote.quote || "Click the 'New quote' button to get a random quote"}
-        <span className="quotations">"</span>
       </p>
       <p id="author" className="h7 text-light mb-5">
         {quote.author ? `- ${quote.author}` : ""}
       </p>
-      <TweetBtn tweet={tweet} />
-      <NewQuote fetchQuote={fetchQuote} />
+      <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
+        <TweetBtn tweet={tweet} />
+        <NewQuote fetchQuote={fetchQuote} />
+      </div>
     </>
   );
 };
 
 const TweetBtn = ({ tweet }) => (
-  <a target="_blank" className="btn btn-info me-4 btn-lg" id="tweet-quote" href={tweet}>
+  <a target="_blank" className="btn btn-info btn-lg" id="tweet-quote" href={tweet}>
     Tweet
   </a>
 );
