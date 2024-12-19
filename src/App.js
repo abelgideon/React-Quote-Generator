@@ -60,7 +60,7 @@ const Quote = ({ quote, fetchQuote }) => {
     <>
       <p id="text" className="h2 text-light">
         <span className="quotations">❝ </span>
-        {quote.quote || "Click the 'New quote' button to get a random quote"}
+        {quote.quote || "Loading..."}
       </p>
       <p id="author" className="h7 text-light mb-5">
         {quote.author ? `- ${quote.author}` : ""}
