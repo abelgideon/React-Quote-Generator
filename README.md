@@ -30,14 +30,20 @@ This project was developed as part of freeCodeCamp's **Front End Development Lib
    git clone https://github.com/abelgideon/React-Quote-Generator.git
    ```
 
-2. Navigate to the project directory:  
+2. Navigate to the project directory: 
+   ```bash 
    cd react-quote-generator
+   ```
 
-3. Install dependencies:  
+3. Install dependencies:
+   ```bash  
    npm install
+   ```
 
-4. Start the development server:  
+4. Start the development server:
+   ```bash  
    npm start
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
