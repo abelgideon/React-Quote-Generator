@@ -1,6 +1,6 @@
 # React Quote Generator
 
-This project was developed as part of freeCodeCamp's **Front End Development Libraries** course. The application fetches and displays random quotes from an API and allows users to share them on Twitter.
+The application fetches and displays random quotes from an API and allows users to share them on Twitter.
 
 ## Features
 
